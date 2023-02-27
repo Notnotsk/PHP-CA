@@ -1,7 +1,11 @@
-<h1>My First PHP Site</h1>
-<p>This HTML will get delivered as is</p>
-<?php echo "<p>But this code is interpreted by PHP and turned into HTML</p>";?>
-<?php echo "<ul><li>You can use any HTML tags,</li><li>like this list.</li></ul>";?>
-<footer>
-  <p>And this code is back in plain HTML</p>
-</footer>
+<?php
+// Write your code below:
+
+  echo "1. Go to the store";
+  echo "\n2. Watch TV";
+  echo "\n3. Read \"The Langoliers\"";
+  
+  
+  
+
+
