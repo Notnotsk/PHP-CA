@@ -1,9 +1,14 @@
 <?php
-  
-  $name = "Scott";
-  $language = "PHP";
-  echo "My name is " . $name . ".";
-  echo "\nI'm learning " . $language . ".";
+  $noun = "cat";
+  $adjective = "fat";
+  $verb = "jump";
+
+  echo "The world's most beloved $noun was very $adjective and loved to $verb every single day.";
+
+
+//Fix the code below and uncomment it:
+
+echo "\nI have always been obsessed with ${noun}s. I'm ${adjective}ish. I'm always ${verb}ing.";
   
   
 
