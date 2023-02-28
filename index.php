@@ -1,6 +1,10 @@
 <?php
-  $very_bad_unclear_name = "15 chicken wings";
-  $order =& $very_bad_unclear_name;
-  $order .= ", and 15 ribs";
+  $age = 11;
 
-  echo "\nYour order is: $very_bad_unclear_name.";
+  echo $age;
+
+  echo "\n";
+
+  $movie_rating = 3.2;
+
+  echo $movie_rating;
