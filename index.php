@@ -1,11 +1,8 @@
 <?php
-  $movie = "Hook";
-  $old_favorite = $movie;
+  echo "I'm going on a picnic!";
 
-  echo "I'm a fickle person, my favorite movie used to be $movie.";
-  
-  $movie = "The Lost Boys";
-  
-  echo "\nBut now my favorite is $movie.";
-  
-  echo "\nI still like ${old_favorite}.";
+  $sentence = "\nI'm going on a picnic, and I'm taking apples";
+  $sentence .= ", but not eating them.";
+  $sentence .= ", cuz I can't.";
+
+  echo $sentence;
