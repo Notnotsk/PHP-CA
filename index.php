@@ -1,8 +1,6 @@
 <?php
-  echo "I'm going on a picnic!";
+  $very_bad_unclear_name = "15 chicken wings";
+  $order =& $very_bad_unclear_name;
+  $order .= ", and 15 ribs";
 
-  $sentence = "\nI'm going on a picnic, and I'm taking apples";
-  $sentence .= ", but not eating them.";
-  $sentence .= ", cuz I can't.";
-
-  echo $sentence;
+  echo "\nYour order is: $very_bad_unclear_name.";
