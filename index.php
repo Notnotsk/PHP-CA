@@ -1,5 +1,5 @@
 <?php
-  $last_month = 1187.23;
-  $this_month = 1089.98;
-
-  echo $last_month - $this_month;
+  $students = 82;
+  $groups = 6;
+  $left_over = $students % $groups;
+  echo $left_over;
