@@ -1,19 +1,11 @@
 <?php
-  $noun = "cat";
-  $adjective = "fat";
-  $verb = "jump";
+  $movie = "Hook";
+  $old_favorite = $movie;
 
-  echo "The world's most beloved $noun was very $adjective and loved to $verb every single day.";
-
-
-//Fix the code below and uncomment it:
-
-echo "\nI have always been obsessed with ${noun}s. I'm ${adjective}ish. I'm always ${verb}ing.";
+  echo "I'm a fickle person, my favorite movie used to be $movie.";
   
+  $movie = "The Lost Boys";
   
-
-
-
+  echo "\nBut now my favorite is $movie.";
   
-
-
+  echo "\nI still like ${old_favorite}.";
