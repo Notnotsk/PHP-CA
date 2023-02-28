@@ -1,10 +1,5 @@
 <?php
-  $age = 11;
+  $last_month = 1187.23;
+  $this_month = 1089.98;
 
-  echo $age;
-
-  echo "\n";
-
-  $movie_rating = 3.2;
-
-  echo $movie_rating;
+  echo $last_month - $this_month;
