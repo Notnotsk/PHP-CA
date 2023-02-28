@@ -1,9 +1,14 @@
 <?php
   
   $name = "Scott";
-  $biography = "\n I like to watch movies";
-  $favorite_food = "\n" . "tur" . "duck" . "en";
+  $language = "PHP";
+  echo "My name is " . $name . ".";
+  echo "\nI'm learning " . $language . ".";
   
+  
+
+
+
   
 
 
