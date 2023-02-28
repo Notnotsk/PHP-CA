@@ -1,6 +1,9 @@
 <?php
-// Write your code below:
-function inflateEgo(){
-  echo "I am funny.";
-}
-inflateEgo();
+  
+  function printStringReturnNumber()
+  {
+    echo "Page not found\n";
+    return 404;
+  }
+  $my_num = printStringReturnNumber();
+  echo $my_num;
