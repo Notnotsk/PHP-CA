@@ -1,14 +1,17 @@
 <?php
-function calculateTip($total, $tip = 20)
+
+$string_one = "you have teeth";
+$string_two = "toads are nice";
+$string_three = "brown is my favorite color";
+
+function convertToQuestion(&$str)
 {
-  return $total * (1 + $tip/100);
+  $str = "Do you think " . $str . "?\n";
 }
+convertToQuestion($string_one);
+convertToQuestion($string_two);
+convertToQuestion($string_three);
 
-echo calculateTip(100, 25);
-echo "\n";
-echo calculateTip(100); 
-echo "\n";
-echo calculateTip(65, 15); 
-
-
-
+echo $string_one;
+echo $string_two;
+echo $string_three;
