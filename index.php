@@ -1,13 +1,13 @@
 <?php
 // Write your code below:
-function increaseEnthusiasm($name)
+function calculateArea($first, $second)
 {
-  return $name . "!";
+  return $first * $second;
 }
-echo increaseEnthusiasm("You got it");
+  echo calculateArea(12, 4);
 
-function repeatThreeTimes($name)
+function calculateVolume($first, $second, $third)
 {
-  return $name . $name . $name;
+  return $first * $second * $third;
 }
-echo repeatThreeTimes(" There's no place like home!");
+  echo calculateVolume(7, 6, 7);
