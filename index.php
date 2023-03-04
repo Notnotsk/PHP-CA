@@ -1,20 +1,19 @@
 <?php
-
-function notFound()
+function first()
 {
-  echo "ERROR: Page not found!\n";
-  return 404;
+  return "You did it!\n";
 }
 
-function greetLearner()
+function second()
 {
-  echo "Hello, Learner!\n";
-  echo "I hope you're (still) enjoying PHP!\n";
-  echo "Love, Codecademy\n";
-  return "<3";
+  return "You're amazing!\n";
 }
 
-$error = notFound(); 
-$heart = greetLearner();
+function third()
+{
+  return "You're a coding hero!\n";
+}
 
-echo "I received a $error, but it's ok because I also received $heart.";
+// Write your code below:
+
+echo first() . " " . second() . " " . third();
