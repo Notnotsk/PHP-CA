@@ -1,17 +1,12 @@
 <?php
 
-$string_one = "you have teeth";
-$string_two = "toads are nice";
-$string_three = "brown is my favorite color";
+$language = "PHP";
+$topic = "scope";
 
-function convertToQuestion(&$str)
+function generateLessonName($concept)
 {
-  $str = "Do you think " . $str . "?\n";
+  global $language;
+  return $language . ": " . $concept;
 }
-convertToQuestion($string_one);
-convertToQuestion($string_two);
-convertToQuestion($string_three);
 
-echo $string_one;
-echo $string_two;
-echo $string_three;
+echo generateLessonName($topic);
