@@ -1,13 +1,14 @@
 <?php
-// Write your code below:
-function calculateArea($first, $second)
+function calculateTip($total, $tip = 20)
 {
-  return $first * $second;
+  return $total * (1 + $tip/100);
 }
-  echo calculateArea(12, 4);
 
-function calculateVolume($first, $second, $third)
-{
-  return $first * $second * $third;
-}
-  echo calculateVolume(7, 6, 7);
+echo calculateTip(100, 25);
+echo "\n";
+echo calculateTip(100); 
+echo "\n";
+echo calculateTip(65, 15); 
+
+
+
